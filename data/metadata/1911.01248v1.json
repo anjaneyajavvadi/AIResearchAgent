@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "1911.01248v1",
+  "title": "A Holistic Natural Language Generation Framework for the Semantic Web",
+  "authors": [
+    "Axel-Cyrille Ngonga Ngomo",
+    "Diego Moussallem",
+    "Lorenz B\u00fchmann"
+  ],
+  "summary": "With the ever-growing generation of data for the Semantic Web comes an increasing demand for this data to be made available to non-semantic Web experts. One way of achieving this goal is to translate the languages of the Semantic Web into natural language. We present LD2NL, a framework for verbalizing the three key languages of the Semantic Web, i.e., RDF, OWL, and SPARQL. Our framework is based on a bottom-up approach to verbalization. We evaluated LD2NL in an open survey with 86 persons. Our results suggest that our framework can generate verbalizations that are close to natural languages and that can be easily understood by non-experts. Therewith, it enables non-domain experts to interpret Semantic Web data with more than 91\\% of the accuracy of domain experts.",
+  "published": "2019-11-04T14:35:59+00:00",
+  "updated": "2019-11-04T14:35:59+00:00",
+  "categories": [
+    "cs.CL",
+    "cs.DB"
+  ],
+  "topic": "nlp",
+  "pdf_path": "data\\pdfs\\1911.01248v1.pdf",
+  "arxiv_url": "http://arxiv.org/abs/1911.01248v1"
+}

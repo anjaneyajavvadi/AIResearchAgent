@@ -1,0 +1,26 @@
+{
+  "arxiv_id": "2209.00796v15",
+  "title": "Diffusion Models: A Comprehensive Survey of Methods and Applications",
+  "authors": [
+    "Ling Yang",
+    "Zhilong Zhang",
+    "Yang Song",
+    "Shenda Hong",
+    "Runsheng Xu",
+    "Yue Zhao",
+    "Wentao Zhang",
+    "Bin Cui",
+    "Ming-Hsuan Yang"
+  ],
+  "summary": "Diffusion models have emerged as a powerful new family of deep generative models with record-breaking performance in many applications, including image synthesis, video generation, and molecule design. In this survey, we provide an overview of the rapidly expanding body of work on diffusion models, categorizing the research into three key areas: efficient sampling, improved likelihood estimation, and handling data with special structures. We also discuss the potential for combining diffusion models with other generative models for enhanced results. We further review the wide-ranging applications of diffusion models in fields spanning from computer vision, natural language generation, temporal data modeling, to interdisciplinary applications in other scientific disciplines. This survey aims to provide a contextualized, in-depth look at the state of diffusion models, identifying the key areas of focus and pointing to potential areas for further exploration. Github: https://github.com/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy.",
+  "published": "2022-09-02T02:59:10+00:00",
+  "updated": "2025-09-27T08:32:10+00:00",
+  "categories": [
+    "cs.LG",
+    "cs.AI",
+    "cs.CV"
+  ],
+  "topic": "diffusion",
+  "pdf_path": "data\\pdfs\\2209.00796v15.pdf",
+  "arxiv_url": "http://arxiv.org/abs/2209.00796v15"
+}

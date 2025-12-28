@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2409.07253v3",
+  "title": "Alignment of Diffusion Models: Fundamentals, Challenges, and Future",
+  "authors": [
+    "Buhua Liu",
+    "Shitong Shao",
+    "Bao Li",
+    "Lichen Bai",
+    "Zhiqiang Xu",
+    "Haoyi Xiong",
+    "James Kwok",
+    "Sumi Helal",
+    "Zeke Xie"
+  ],
+  "summary": "Diffusion models have emerged as the leading paradigm in generative modeling, excelling in various applications. Despite their success, these models often misalign with human intentions and generate results with undesired properties or even harmful content. Inspired by the success and popularity of alignment in tuning large language models, recent studies have investigated aligning diffusion models with human expectations and preferences. This work mainly reviews alignment of text-to-image diffusion models, covering advancements in fundamentals of alignment, alignment techniques of diffusion models, preference benchmarks, and evaluation for diffusion models. Moreover, we discuss key perspectives on current challenges and promising future directions on solving the remaining challenges in alignment of diffusion models. To the best of our knowledge, our work is the first comprehensive review paper for researchers and engineers to comprehend, practice, and research alignment of diffusion models.",
+  "published": "2024-09-11T13:21:32+00:00",
+  "updated": "2025-08-07T16:19:38+00:00",
+  "categories": [
+    "cs.LG",
+    "cs.CV"
+  ],
+  "topic": "diffusion",
+  "pdf_path": "data\\pdfs\\2409.07253v3.pdf",
+  "arxiv_url": "http://arxiv.org/abs/2409.07253v3"
+}

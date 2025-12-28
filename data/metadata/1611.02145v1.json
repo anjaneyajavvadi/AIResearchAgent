@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "1611.02145v1",
+  "title": "Crowdsourcing in Computer Vision",
+  "authors": [
+    "Adriana Kovashka",
+    "Olga Russakovsky",
+    "Li Fei-Fei",
+    "Kristen Grauman"
+  ],
+  "summary": "Computer vision systems require large amounts of manually annotated data to properly learn challenging visual concepts. Crowdsourcing platforms offer an inexpensive method to capture human knowledge and understanding, for a vast number of visual perception tasks. In this survey, we describe the types of annotations computer vision researchers have collected using crowdsourcing, and how they have ensured that this data is of high quality while annotation effort is minimized. We begin by discussing data collection on both classic (e.g., object recognition) and recent (e.g., visual story-telling) vision tasks. We then summarize key design decisions for creating effective data collection interfaces and workflows, and present strategies for intelligently selecting the most important data instances to annotate. Finally, we conclude with some thoughts on the future of crowdsourcing in computer vision.",
+  "published": "2016-11-07T16:11:19+00:00",
+  "updated": "2016-11-07T16:11:19+00:00",
+  "categories": [
+    "cs.CV",
+    "cs.HC"
+  ],
+  "topic": "computer_vision",
+  "pdf_path": "data\\pdfs\\1611.02145v1.pdf",
+  "arxiv_url": "http://arxiv.org/abs/1611.02145v1"
+}

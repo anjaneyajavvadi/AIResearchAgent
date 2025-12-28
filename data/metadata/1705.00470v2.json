@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "1705.00470v2",
+  "title": "Learning Multimodal Transition Dynamics for Model-Based Reinforcement Learning",
+  "authors": [
+    "Thomas M. Moerland",
+    "Joost Broekens",
+    "Catholijn M. Jonker"
+  ],
+  "summary": "In this paper we study how to learn stochastic, multimodal transition dynamics in reinforcement learning (RL) tasks. We focus on evaluating transition function estimation, while we defer planning over this model to future work. Stochasticity is a fundamental property of many task environments. However, discriminative function approximators have difficulty estimating multimodal stochasticity. In contrast, deep generative models do capture complex high-dimensional outcome distributions. First we discuss why, amongst such models, conditional variational inference (VI) is theoretically most appealing for model-based RL. Subsequently, we compare different VI models on their ability to learn complex stochasticity on simulated functions, as well as on a typical RL gridworld with multimodal dynamics. Results show VI successfully predicts multimodal outcomes, but also robustly ignores these for deterministic parts of the transition dynamics. In summary, we show a robust method to learn multimodal transitions using function approximation, which is a key preliminary for model-based RL in stochastic domains.",
+  "published": "2017-05-01T11:06:04+00:00",
+  "updated": "2017-08-08T13:50:49+00:00",
+  "categories": [
+    "stat.ML",
+    "cs.LG"
+  ],
+  "topic": "reinforcement_learning",
+  "pdf_path": "data\\pdfs\\1705.00470v2.pdf",
+  "arxiv_url": "http://arxiv.org/abs/1705.00470v2"
+}

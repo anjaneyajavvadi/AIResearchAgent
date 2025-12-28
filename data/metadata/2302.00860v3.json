@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2302.00860v3",
+  "title": "Modeling Causal Mechanisms with Diffusion Models for Interventional and Counterfactual Queries",
+  "authors": [
+    "Patrick Chao",
+    "Patrick Bl\u00f6baum",
+    "Sapan Patel",
+    "Shiva Prasad Kasiviswanathan"
+  ],
+  "summary": "We consider the problem of answering observational, interventional, and counterfactual queries in a causally sufficient setting where only observational data and the causal graph are available. Utilizing the recent developments in diffusion models, we introduce diffusion-based causal models (DCM) to learn causal mechanisms, that generate unique latent encodings. These encodings enable us to directly sample under interventions and perform abduction for counterfactuals. Diffusion models are a natural fit here, since they can encode each node to a latent representation that acts as a proxy for exogenous noise. Our empirical evaluations demonstrate significant improvements over existing state-of-the-art methods for answering causal queries. Furthermore, we provide theoretical results that offer a methodology for analyzing counterfactual estimation in general encoder-decoder models, which could be useful in settings beyond our proposed approach.",
+  "published": "2023-02-02T04:08:08+00:00",
+  "updated": "2024-10-09T18:04:37+00:00",
+  "categories": [
+    "stat.ML",
+    "cs.LG",
+    "stat.ME"
+  ],
+  "topic": "diffusion",
+  "pdf_path": "data\\pdfs\\2302.00860v3.pdf",
+  "arxiv_url": "http://arxiv.org/abs/2302.00860v3"
+}

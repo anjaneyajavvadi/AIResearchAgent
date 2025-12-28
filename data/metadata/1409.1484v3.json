@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "1409.1484v3",
+  "title": "The Evolution of First Person Vision Methods: A Survey",
+  "authors": [
+    "Alejandro Betancourt",
+    "Pietro Morerio",
+    "Carlo S. Regazzoni",
+    "Matthias Rauterberg"
+  ],
+  "summary": "The emergence of new wearable technologies such as action cameras and smart-glasses has increased the interest of computer vision scientists in the First Person perspective. Nowadays, this field is attracting attention and investments of companies aiming to develop commercial devices with First Person Vision recording capabilities. Due to this interest, an increasing demand of methods to process these videos, possibly in real-time, is expected. Current approaches present a particular combinations of different image features and quantitative methods to accomplish specific objectives like object detection, activity recognition, user machine interaction and so on. This paper summarizes the evolution of the state of the art in First Person Vision video analysis between 1997 and 2014, highlighting, among others, most commonly used features, methods, challenges and opportunities within the field.",
+  "published": "2014-09-04T16:38:43+00:00",
+  "updated": "2015-04-03T10:00:17+00:00",
+  "categories": [
+    "cs.CV"
+  ],
+  "topic": "computer_vision",
+  "pdf_path": "data\\pdfs\\1409.1484v3.pdf",
+  "arxiv_url": "http://arxiv.org/abs/1409.1484v3"
+}

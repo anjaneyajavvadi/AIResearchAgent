@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "1808.04096v1",
+  "title": "Directed Policy Gradient for Safe Reinforcement Learning with Human Advice",
+  "authors": [
+    "H\u00e9l\u00e8ne Plisnier",
+    "Denis Steckelmacher",
+    "Tim Brys",
+    "Diederik M. Roijers",
+    "Ann Now\u00e9"
+  ],
+  "summary": "Many currently deployed Reinforcement Learning agents work in an environment shared with humans, be them co-workers, users or clients. It is desirable that these agents adjust to people's preferences, learn faster thanks to their help, and act safely around them. We argue that most current approaches that learn from human feedback are unsafe: rewarding or punishing the agent a-posteriori cannot immediately prevent it from wrong-doing. In this paper, we extend Policy Gradient to make it robust to external directives, that would otherwise break the fundamentally on-policy nature of Policy Gradient. Our technique, Directed Policy Gradient (DPG), allows a teacher or backup policy to override the agent before it acts undesirably, while allowing the agent to leverage human advice or directives to learn faster. Our experiments demonstrate that DPG makes the agent learn much faster than reward-based approaches, while requiring an order of magnitude less advice.",
+  "published": "2018-08-13T08:12:22+00:00",
+  "updated": "2018-08-13T08:12:22+00:00",
+  "categories": [
+    "cs.LG",
+    "cs.AI",
+    "stat.ML"
+  ],
+  "topic": "reinforcement_learning",
+  "pdf_path": "data\\pdfs\\1808.04096v1.pdf",
+  "arxiv_url": "http://arxiv.org/abs/1808.04096v1"
+}

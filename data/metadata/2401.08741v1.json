@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2401.08741v1",
+  "title": "Fixed Point Diffusion Models",
+  "authors": [
+    "Xingjian Bai",
+    "Luke Melas-Kyriazi"
+  ],
+  "summary": "We introduce the Fixed Point Diffusion Model (FPDM), a novel approach to image generation that integrates the concept of fixed point solving into the framework of diffusion-based generative modeling. Our approach embeds an implicit fixed point solving layer into the denoising network of a diffusion model, transforming the diffusion process into a sequence of closely-related fixed point problems. Combined with a new stochastic training method, this approach significantly reduces model size, reduces memory usage, and accelerates training. Moreover, it enables the development of two new techniques to improve sampling efficiency: reallocating computation across timesteps and reusing fixed point solutions between timesteps. We conduct extensive experiments with state-of-the-art models on ImageNet, FFHQ, CelebA-HQ, and LSUN-Church, demonstrating substantial improvements in performance and efficiency. Compared to the state-of-the-art DiT model, FPDM contains 87% fewer parameters, consumes 60% less memory during training, and improves image generation quality in situations where sampling computation or time is limited. Our code and pretrained models are available at https://lukemelas.github.io/fixed-point-diffusion-models.",
+  "published": "2024-01-16T18:55:54+00:00",
+  "updated": "2024-01-16T18:55:54+00:00",
+  "categories": [
+    "cs.CV",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "topic": "diffusion",
+  "pdf_path": "data\\pdfs\\2401.08741v1.pdf",
+  "arxiv_url": "http://arxiv.org/abs/2401.08741v1"
+}

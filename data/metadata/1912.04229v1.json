@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "1912.04229v1",
+  "title": "DCIL: Deep Contextual Internal Learning for Image Restoration and Image Retargeting",
+  "authors": [
+    "Indra Deep Mastan",
+    "Shanmuganathan Raman"
+  ],
+  "summary": "Recently, there is a vast interest in developing methods which are independent of the training samples such as deep image prior, zero-shot learning, and internal learning. The methods above are based on the common goal of maximizing image features learning from a single image despite inherent technical diversity. In this work, we bridge the gap between the various unsupervised approaches above and propose a general framework for image restoration and image retargeting. We use contextual feature learning and internal learning to improvise the structure similarity between the source and the target images. We perform image resize application in the following setups: classical image resize using super-resolution, a challenging image resize where the low-resolution image contains noise, and content-aware image resize using image retargeting. We also provide comparisons to the relevant state-of-the-art methods.",
+  "published": "2019-12-09T18:12:49+00:00",
+  "updated": "2019-12-09T18:12:49+00:00",
+  "categories": [
+    "eess.IV",
+    "cs.CV"
+  ],
+  "topic": "deep_learning",
+  "pdf_path": "data\\pdfs\\1912.04229v1.pdf",
+  "arxiv_url": "http://arxiv.org/abs/1912.04229v1"
+}

@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "1109.2261v1",
+  "title": "Diffusion in binary and pseudo-binary L12 indides, stannides, gallides and aluminides of rare-earth elements as studied using perturbed angular correlation of 111In/Cd",
+  "authors": [
+    "Randal Newhouse",
+    "Justine Minish",
+    "Gary S. Collins"
+  ],
+  "summary": "Diffusional jumps can produce fluctuating electric field gradients at nuclei of jumping atoms. Using perturbed angular correlation of gamma rays (PAC), jumps of probe atoms cause nuclear quadrupole relaxation that can be fitted to obtain the mean jump frequency. An overview is given of the application of this approach to highly ordered intermetallic compounds having the L12 (Cu3Au) crystal structure. New results are then presented for jump frequencies of 111In/Cd probe atoms in pseudo-binary L12 compounds of the forms In3(La1-xPrx) and (In1-xSnx)3La. For the mixed rare-earth system, jump frequencies are found to scale with composition between jump frequencies of the end-member phases In3La and In3Pr. However, for the mixed sp-element system, a large decrease in jump frequency is observed as Sn atoms substitute for In-atoms. This difference in behavior appears to depend on whether atomic disorder is on the diffusion sublattice (In-Sn substitution), as opposed to a neighboring sublattice (La-Pr substitution), whether or not there is a difference in diffusion mechanism between end-member phases, and/or whether or not there is a valence difference between the mixing atoms. All three conditions apply for only (In1-xSnx)3La.",
+  "published": "2011-09-10T21:24:15+00:00",
+  "updated": "2011-09-10T21:24:15+00:00",
+  "categories": [
+    "cond-mat.mtrl-sci"
+  ],
+  "topic": "diffusion",
+  "pdf_path": "data\\pdfs\\1109.2261v1.pdf",
+  "arxiv_url": "http://arxiv.org/abs/1109.2261v1"
+}

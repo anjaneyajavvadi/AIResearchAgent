@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2311.16052v1",
+  "title": "Exploring Attribute Variations in Style-based GANs using Diffusion Models",
+  "authors": [
+    "Rishubh Parihar",
+    "Prasanna Balaji",
+    "Raghav Magazine",
+    "Sarthak Vora",
+    "Tejan Karmali",
+    "Varun Jampani",
+    "R. Venkatesh Babu"
+  ],
+  "summary": "Existing attribute editing methods treat semantic attributes as binary, resulting in a single edit per attribute. However, attributes such as eyeglasses, smiles, or hairstyles exhibit a vast range of diversity. In this work, we formulate the task of \\textit{diverse attribute editing} by modeling the multidimensional nature of attribute edits. This enables users to generate multiple plausible edits per attribute. We capitalize on disentangled latent spaces of pretrained GANs and train a Denoising Diffusion Probabilistic Model (DDPM) to learn the latent distribution for diverse edits. Specifically, we train DDPM over a dataset of edit latent directions obtained by embedding image pairs with a single attribute change. This leads to latent subspaces that enable diverse attribute editing. Applying diffusion in the highly compressed latent space allows us to model rich distributions of edits within limited computational resources. Through extensive qualitative and quantitative experiments conducted across a range of datasets, we demonstrate the effectiveness of our approach for diverse attribute editing. We also showcase the results of our method applied for 3D editing of various face attributes.",
+  "published": "2023-11-27T18:14:03+00:00",
+  "updated": "2023-11-27T18:14:03+00:00",
+  "categories": [
+    "cs.CV"
+  ],
+  "topic": "diffusion",
+  "pdf_path": "data\\pdfs\\2311.16052v1.pdf",
+  "arxiv_url": "http://arxiv.org/abs/2311.16052v1"
+}

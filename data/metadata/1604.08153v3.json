@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "1604.08153v3",
+  "title": "Classifying Options for Deep Reinforcement Learning",
+  "authors": [
+    "Kai Arulkumaran",
+    "Nat Dilokthanakul",
+    "Murray Shanahan",
+    "Anil Anthony Bharath"
+  ],
+  "summary": "In this paper we combine one method for hierarchical reinforcement learning - the options framework - with deep Q-networks (DQNs) through the use of different \"option heads\" on the policy network, and a supervisory network for choosing between the different options. We utilise our setup to investigate the effects of architectural constraints in subtasks with positive and negative transfer, across a range of network capacities. We empirically show that our augmented DQN has lower sample complexity when simultaneously learning subtasks with negative transfer, without degrading performance when learning subtasks with positive transfer.",
+  "published": "2016-04-27T17:48:39+00:00",
+  "updated": "2017-06-19T15:34:58+00:00",
+  "categories": [
+    "cs.LG",
+    "cs.AI",
+    "stat.ML"
+  ],
+  "topic": "reinforcement_learning",
+  "pdf_path": "data\\pdfs\\1604.08153v3.pdf",
+  "arxiv_url": "http://arxiv.org/abs/1604.08153v3"
+}
