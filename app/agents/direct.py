@@ -27,10 +27,11 @@ def direct_answer_node(state: AgentState):
 
     chain = prompt | llm
 
-    response = chain.invoke({
-        "question": state["user_query"]
-    })
+    # response = chain.invoke({
+    #     "question": state["user_query"]
+    # })
+    response="ypu have reached direct node"
 
     return {
-        "final_answer": response
+        "final_response": response
     }

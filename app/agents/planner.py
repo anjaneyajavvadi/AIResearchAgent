@@ -2,13 +2,13 @@ from typing import Literal
 from pydantic import BaseModel, Field
 from langchain_core.output_parsers import PydanticOutputParser
 from langchain_classic.prompts import ChatPromptTemplate
-from graph.state import AgentState
-from llm.model import get_model
+from app.graph.state import AgentState
+from app.llm.model import get_model
 
 class PlannerOutput(BaseModel):
     research_relevant: bool
     retrieval_mode: Literal["rag", "web", "both", "none"]
-    answer_mode: Literal["grounded", "direct"]
+    answer_mode: Literal["grounded", "direct",'refuse']
 
 
 
@@ -126,7 +126,7 @@ Do NOT include explanations, comments, or extra text.
 
 
 def planner_node(state: AgentState):
-    llm = get_model(temperature=0)
+    llm = get_model()
 
     parser = PydanticOutputParser(pydantic_object=PlannerOutput)
 
@@ -139,14 +139,14 @@ def planner_node(state: AgentState):
 
     chain = prompt | llm | parser
 
-    response: PlannerOutput = chain.invoke({
-        "user_query": state["user_query"]
-    })
+    # response= chain.invoke({
+    #     "user_query": state["user_query"]
+    # })
 
     return {
-        "research_relevant": response.research_relevant,
-        "retrieval_mode": response.retrieval_mode,
-        "answer_mode": response.answer_mode,
+        "research_relevant": True,#response.research_relevant,
+        "retrieval_mode": 'both' ,#response.retrieval_mode,
+        "answer_mode": "grounded"#response.answer_mode,
     }
 
 

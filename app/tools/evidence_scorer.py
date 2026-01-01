@@ -1,6 +1,6 @@
 from typing import List
-from datetime import datetime
-from models.evidence_score_model import EvidenceScore
+from datetime import date
+from app.models.evidence_score_model import EvidenceScore
 from app.models.rag_retrieval_model import RagRetrievalResult
 from app.models.websearch_model import WebRetrievalResult
 
@@ -26,7 +26,7 @@ def evidence_checker(
     source_diversity = len(source_ids)
 
     # ---------- FRESHNESS ----------
-    current_year = datetime.utcnow().year
+    current_year =date.today().year
     freshness_scores = []
 
     for r in rag_results:

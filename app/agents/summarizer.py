@@ -1,4 +1,4 @@
-from graph.state import AgentState
+from app.graph.state import AgentState
 from app.llm.model import get_model
 
 SUMMARIZER_PROMPT="""
@@ -51,9 +51,9 @@ Evidence:
 {evidence_text}
 """
 
-    response = llm.invoke(prompt)
+    response =  "Ypu have reached summarixer node"#llm.invoke(prompt)
 
     return {
-        "final_answer": response
+        "final_response": response
     }
 

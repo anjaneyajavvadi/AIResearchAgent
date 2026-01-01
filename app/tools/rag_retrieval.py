@@ -1,10 +1,11 @@
 import re
 from typing import List
-from models.rag_retrieval_model import RagRetrievalResult
+from app.models.rag_retrieval_model import RagRetrievalResult
 from rank_bm25 import BM25Okapi
 from qdrant_client import QdrantClient
 from sentence_transformers import SentenceTransformer
 import json
+from app.llm.qdrant import get_qdrant_client,close_qdrant_client
 
 ARXIV_YEAR_RE = re.compile(r"^(\d{2})")
 
@@ -14,7 +15,7 @@ with open("data/bm25.json") as f:
 
 bm25 = BM25Okapi(data["corpus"]) 
 ids = data["ids"] 
-client = QdrantClient(path='./qdrant_data') 
+client = get_qdrant_client()
 embedder = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
 
 def parse_year_and_version(arxiv_id: str):
@@ -60,6 +61,9 @@ def rag_retrieve(query: str) -> List[RagRetrievalResult]:
         with_payload=True,
         with_vectors=False
     )
+    
+
+    
 
     results: List[RagRetrievalResult] = []
 

@@ -1,5 +1,5 @@
 from app.llm.model import get_model
-from graph.state import AgentState
+from app.graph.state import AgentState
 
 DEGRADED_SUMMARIZER_PROMPT = """
 You are a research assistant producing a cautious, partial answer.
@@ -16,11 +16,8 @@ Rules (STRICT – DO NOT VIOLATE):
 The goal is honesty and precision, not completeness.
 """
 
-from graph.state import AgentState
-from llm.model import get_model
-
 def degraded_summarizer_node(state: AgentState):
-    llm = get_model(temperature=0)
+    llm = get_model()
 
     rag_results = state.get("rag_results", [])
     web_results = state.get("web_search_results", [])
@@ -60,8 +57,8 @@ Evidence:
 {evidence_text}
 """
 
-    response = llm.invoke(prompt)
+    response = "ypu have reached degraded node"#llm.invoke(prompt)
 
     return {
-        "final_answer": response
+        "final_response": response
     }
