@@ -9,13 +9,6 @@ def evidence_node(state: AgentState):
         web_results=state.get("web_search_results", [])
     )
 
-    retries = dict(state["retries"])
-
-    if response.coverage < 0.6:
-        retries["rag"] += 1
-        retries["web_search"] += 1
-
     return {
         "evidence_score": response,
-        "retries": retries
     }

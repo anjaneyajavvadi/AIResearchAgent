@@ -139,9 +139,6 @@ def planner_node(state: AgentState):
 
     chain = prompt | llm | parser
 
-    # response= chain.invoke({
-    #     "user_query": state["user_query"]
-    # })
 
     return {
         "research_relevant": True,#response.research_relevant,

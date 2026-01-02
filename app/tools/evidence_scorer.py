@@ -32,12 +32,12 @@ def evidence_checker(
     for r in rag_results:
         if r.year:
             age = current_year - r.year
-            if age <= 1:
+            if age <= 2:
                 freshness_scores.append(1.0)
-            elif age <= 3:
+            elif age <= 4:
                 freshness_scores.append(0.6)
             else:
-                freshness_scores.append(0.3)
+                freshness_scores.append(0.4)
 
     for w in web_results:
         if w.published_at:
