@@ -25,7 +25,6 @@ def evidence_checker(
 
     source_diversity = len(source_ids)
 
-    # ---------- FRESHNESS ----------
     current_year =date.today().year
     freshness_scores = []
 
@@ -40,23 +39,17 @@ def evidence_checker(
                 freshness_scores.append(0.4)
 
     for w in web_results:
-        if w.published_at:
-            freshness_scores.append(0.8)  # assume recent unless proven old
+        freshness_scores.append(0.8) 
 
-    freshness = sum(freshness_scores) / len(freshness_scores) if freshness_scores else 0.0
-
-    # ---------- COVERAGE ----------
-    # simple heuristic first (LLM refinement can come later)
+    freshness = sum(freshness_scores) / len(freshness_scores) if freshness_scores else 0.
     coverage = min(1.0, len(all_results) / 6.0)
 
-    # ---------- CONSISTENCY ----------
-    # conservative default
     if len(all_results) <= 1:
         consistency = 0.4
     else:
         consistency = min(1.0, 0.5 + 0.1 * len(all_results))
 
-    # ---------- USABLE ----------
+
     usable = (
         coverage >= 0.6 and
         consistency >= 0.6 and

@@ -18,7 +18,7 @@ Be concise and factual.
 """
 
 def direct_answer_node(state: AgentState):
-    llm = get_model(temperature=0)
+    llm = get_model()
 
     prompt = ChatPromptTemplate.from_messages([
         ("system", DIRECT_ANSWER_PROMPT),
@@ -27,10 +27,9 @@ def direct_answer_node(state: AgentState):
 
     chain = prompt | llm
 
-    # response = chain.invoke({
-    #     "question": state["user_query"]
-    # })
-    response="ypu have reached direct node"
+    response = chain.invoke({
+        "question": state["user_query"]
+    })
 
     return {
         "final_response": response

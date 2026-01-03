@@ -2,7 +2,7 @@ from app.graph.state import AgentState
 from app.tools.web_search import web_search
 
 def websearch_node(state: AgentState):
-    results = web_search(state["user_query"])
+    results = web_search(state['effective_query'])
 
     return {
         "web_search_results": results,

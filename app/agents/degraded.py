@@ -57,7 +57,7 @@ Evidence:
 {evidence_text}
 """
 
-    response = "ypu have reached degraded node"#llm.invoke(prompt)
+    response = llm.invoke(prompt)
 
     return {
         "final_response": response

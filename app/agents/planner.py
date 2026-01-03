@@ -27,7 +27,6 @@ Your job is to analyze the user query and output a structured decision describin
 1. Whether the query is research-related
 2. How information should be retrieved (if at all)
 3. How the answer should be produced
-4. How confident you are in these decisions
 
 --------------------------------
 1. RESEARCH RELEVANCE
@@ -139,11 +138,15 @@ def planner_node(state: AgentState):
 
     chain = prompt | llm | parser
 
+    response= chain.invoke({
+        "user_query": state["user_query"]
+    })
 
     return {
-        "research_relevant": True,#response.research_relevant,
-        "retrieval_mode": 'both' ,#response.retrieval_mode,
-        "answer_mode": "grounded"#response.answer_mode,
+        "research_relevant":response.research_relevant,
+        "retrieval_mode": response.retrieval_mode,
+        "answer_mode": response.answer_mode,
+        "effective_query":state['user_query']
     }
 
 

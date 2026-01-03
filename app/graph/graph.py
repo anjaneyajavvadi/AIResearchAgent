@@ -54,8 +54,6 @@ graph.add_edge("both_retrieval", "web_search")
 graph.add_edge("rag", "merge")
 graph.add_edge("web_search", "merge")
 
-
-
 graph.add_edge("merge","evidence_checker")
 
 graph.add_edge("evidence_checker", "evaluator")

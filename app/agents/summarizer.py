@@ -50,8 +50,7 @@ User Query:
 Evidence:
 {evidence_text}
 """
-
-    response =  "Ypu have reached summarixer node"#llm.invoke(prompt)
+    response =llm.invoke(prompt)
 
     return {
         "final_response": response
